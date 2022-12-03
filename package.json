@@ -10,7 +10,7 @@
   },
   "lint-staged": {
     "src/**/*.ts": [
-      "npx lint --fix"
+      "eslint --fix"
     ]
   },
   "scripts": {
