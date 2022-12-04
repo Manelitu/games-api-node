@@ -1,6 +1,17 @@
 import { v4 as uuid } from 'uuid';
 
-class Game {
+export interface IGameDTO {
+  id?: string;
+  name: string;
+  designer: string;
+  genre: string;
+  platform: string;
+  developer: string;
+  releaseData: string;
+  mode: string;
+}
+
+class Game implements IGameDTO {
   id?: string;
 
   name!: string;
