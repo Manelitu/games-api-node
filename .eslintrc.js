@@ -40,6 +40,7 @@ module.exports = {
     '@typescript-eslint/indent': [2, 2],
     "@typescript-eslint/no-unsafe-assignment": "off",
     "@typescript-eslint/no-unsafe-member-access": "off",
+    'class-methods-use-this': 'off',
     'no-console': 'off',
     'import/prefer-default-export': 'off',
     'import/extensions': [
