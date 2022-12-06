@@ -42,6 +42,7 @@ module.exports = {
     "@typescript-eslint/no-unsafe-member-access": "off",
     'class-methods-use-this': 'off',
     'no-console': 'off',
+    'no-useless-constructor': 'off',
     'import/prefer-default-export': 'off',
     'import/extensions': [
       'error',
