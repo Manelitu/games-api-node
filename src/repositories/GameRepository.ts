@@ -2,7 +2,7 @@ import prisma from '../../prisma/prismaClient';
 import { IGameDTO } from '../entities/Game';
 import { IGameRepository } from './IGameRepository';
 
-class GameRepository implements IGameRepository {
+export class GameRepository implements IGameRepository {
   async insert({
     developer,
     genre,
@@ -25,5 +25,3 @@ class GameRepository implements IGameRepository {
     });
   }
 }
-
-export { GameRepository };

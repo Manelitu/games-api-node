@@ -3,7 +3,7 @@ import { Request, Response } from 'express';
 import { IGameDTO } from '../entities/Game';
 import { InsertGameUseCase } from './InsertGameUseCase';
 
-class InsertGameController {
+export class InsertGameController {
   constructor(private useCase: InsertGameUseCase) {}
 
   async handle(req: Request, res: Response): Promise<Response> {
@@ -12,5 +12,3 @@ class InsertGameController {
     return res.status(201).json({ message: 'Game registered' });
   }
 }
-
-export { InsertGameController };

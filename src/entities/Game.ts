@@ -11,7 +11,7 @@ export interface IGameDTO {
   mode: string;
 }
 
-class Game implements IGameDTO {
+export class Game implements IGameDTO {
   id?: string;
 
   name!: string;
@@ -36,5 +36,3 @@ class Game implements IGameDTO {
     if (!this.id) this.id = uuid();
   }
 }
-
-export { Game };
