@@ -1,5 +1,5 @@
 
-## Rodando localmente
+## Para rodar o projeto localmente
 
 Clone o projeto
 
